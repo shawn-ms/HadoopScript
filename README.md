@@ -51,7 +51,7 @@ chmod 766 centos_mysql.sh
 ./centos_mysql.sh
 ```
 
->安装hive
+>安装hive(安装hive前，请安装启动hadoop,mysql)
 
 ```shell
 cd ~
