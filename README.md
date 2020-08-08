@@ -17,14 +17,15 @@ jdbc 5.1.48
   
 >切换为root用户
   
-  ```
+  ```shell
   su root
   ```
 
 >(可选)centos7初始化脚本，centos其他版本可将脚本内换源地址修改为想用版本号
 
   主要为yum换源及基础工具安装
-```
+  
+```shell
 cd ~
 curl -O https://cdn.jsdelivr.net/gh/shawn-ms/HadoopScript/centos/centos7_init.sh
 chmod 766 centos7_init.sh
@@ -32,7 +33,7 @@ chmod 766 centos7_init.sh
 ```
 >安装hadoop
 
-```
+```shell
 cd ~
 curl -O https://cdn.jsdelivr.net/gh/shawn-ms/HadoopScript/centos/centos_hadoop_install.sh
 chmod 766 centos_hadoop_install.sh
@@ -43,7 +44,7 @@ chmod 766 centos_hadoop_install.sh
 <u>执行1.安装hadoop前要先执行2 ssh localhost</u>
 >安装mysql
 
-```
+```shell
 cd ~
 curl -O https://cdn.jsdelivr.net/gh/shawn-ms/HadoopScript/centos/centos_mysql.sh
 chmod 766 centos_mysql.sh
@@ -52,7 +53,7 @@ chmod 766 centos_mysql.sh
 
 >安装hive
 
-```
+```shell
 cd ~
 curl -O https://cdn.jsdelivr.net/gh/shawn-ms/HadoopScript/centos/hive.sh
 chmod 766 hive.sh
