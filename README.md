@@ -1,4 +1,4 @@
-<h2>hadoop及生态圈组件运维安装脚本（Hadoop operation and maintenance installation script）</h2>
+<h1>hadoop及生态圈组件运维安装脚本（Hadoop operation and maintenance installation script）</h1>
 
 >脚本主要用于方便学习，从不断配置环境中解脱出来,
 版本为hadoop2最后一个版本，可自行修改脚本调整
@@ -13,7 +13,7 @@ mysql 5.7.6
 
 jdbc 5.1.48
 
-<h3>centos<h3>
+<h2>centos</h2>
   
 >切换为root用户
   
