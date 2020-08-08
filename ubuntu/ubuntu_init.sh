@@ -7,9 +7,6 @@
 #FileName:      ubuntu_init.sh
 #Description:   The script for ubuntu reset
 #********************************************************************
-#设置root密码
-
-su root
 #换源
 
 cp /etc/apt/sources.list /etc/apt/sourses.list.backup
