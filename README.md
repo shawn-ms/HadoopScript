@@ -74,16 +74,16 @@ ubuntu 默认非root登录，首次需要设置root密码 passwd root
 ```shell
 cd ~
 curl -O https://file.masheng.fun/shell/ubuntu/ubuntu_init.sh
-chmod 766 centos7_init.sh
-./centos7_init.sh
+chmod 766 ubuntu_init.sh
+./ubuntu_init.sh
 ```
 >安装hadoop
 
 ```shell
 cd ~
 curl -O https://cdn.jsdelivr.net/gh/shawn-ms/HadoopScript/ubuntu/ubuntu_hadoop_install.sh
-chmod 766 centos_hadoop_install.sh
-./centos_hadoop_install.sh
+chmod 766 ubuntu_hadoop_install.sh
+./ubuntu_hadoop_install.sh
 ```
 ![](https://cdn.jsdelivr.net/gh/shawn-ms/HadoopScript/centos/hadoop.JPG)
 
